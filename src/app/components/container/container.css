@@ -1,0 +1,19 @@
+.container {
+background-color: orange;
+height: calc(100vh - 200px);
+
+display: flex;
+}
+app-navbar{
+    flex: 1;
+    display: flex;
+}
+app-main{
+    flex: 3;
+    display: flex;
+}
+@media (max-width: 600px)  {
+    .container{
+        flex-direction: column;
+    }
+}
